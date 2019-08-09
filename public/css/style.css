@@ -1,0 +1,36 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: url(../img/bg.png) center/cover fixed no-repeat;
+    /* border: black 5px solid; */
+}
+
+footer{
+    padding: 16px 0;
+    margin-top: 16px;
+    color: #030000;
+    border-top: 1px solid #eeeeee;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+font-size: 64px;
+margin-bottom: 16px;
+}
+
+header a{
+    color: #2e312a;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.main-header{
+    min-height: 70vh;
+}
