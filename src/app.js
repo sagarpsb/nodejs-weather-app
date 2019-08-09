@@ -7,6 +7,11 @@ const request = require('request');
 
 const app = express();
 
+
+// this is for HEROKU
+
+const port = process.env.PORT || 3000;
+
 // Define paths for express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -98,6 +103,6 @@ app.get('*', (req, res) => {
     })
 });
 
-app.listen(3000, () => {
-    console.log('Port 3000 is on');
+app.listen(port, () => {
+    console.log('Server is started on port' + port);
 })
